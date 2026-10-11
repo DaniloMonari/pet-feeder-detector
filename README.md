@@ -51,7 +51,7 @@ dataset_comedouro/
     └── vasilha_vazia/
 
 - **Pré-processamento:** Redimensionamento padronizado para 160x160 (ou 299x299 caso use Inception) e normalização dos tensores na escala `[-1, 1]`.
-
+```
 ---
 
 ## 🧠 Arquiteturas Testadas
@@ -100,6 +100,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 Execute as células sequencialmente para gerar o treinamento, validação e plotagem dos gráficos de comparação.
+```
 
 💡 Conclusões
 O uso de Transfer Learning permitiu que a rede convergisse com alta precisão mesmo com um volume reduzido de imagens por classe.
